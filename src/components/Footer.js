@@ -2,7 +2,14 @@ import "./FooterStyles.css";
 
 import React from "react";
 
-import { FaHome, FaPhone, FaMailBulk } from "react-icons/fa";
+import {
+  FaHome,
+  FaPhone,
+  FaMailBulk,
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -35,7 +42,24 @@ const Footer = () => {
             </h4>
           </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <h4>About Me.</h4>
+          <p>This is me Sumit Kumar Sinha. I am MERN Stack Developer.</p>
+          <div className="social">
+            <FaFacebook
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaTwitter
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaLinkedin
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
