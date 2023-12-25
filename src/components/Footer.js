@@ -19,8 +19,8 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>123 Housing Society</p>
-              <p>Bangladesh</p>
+              <p>80, Surana Nagar, Samosa Colony</p>
+              <p>Barwaha, Indore(MP)</p>
             </div>
           </div>
           <div className="phone">
@@ -29,7 +29,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              90094-68971
+              +91-90094-68971
             </h4>
           </div>
           <div className="email">
